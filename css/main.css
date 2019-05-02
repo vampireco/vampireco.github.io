@@ -1,0 +1,925 @@
+/* Anil's custom CSS */
+
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-style: normal;
+
+  src: local('Raleway'), local('Raleway-Regular'), url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-700 - latin */
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: normal;
+
+  src: local('Raleway Bold'), local('Raleway-Bold'), url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-800 - latin */
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-style: normal;
+
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  border-width: 1rem;
+  border-style: solid;
+  border-color: #2962FF;
+
+  font-family: Raleway !important;
+}
+
+h1 {
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+
+  letter-spacing: 2px;
+
+  font-family: Raleway;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+h2 {
+  margin-right: 10rem;
+  margin-bottom: 2.25rem;
+  margin-left: 10rem;
+
+  letter-spacing: 1px;
+
+  font-family: Raleway;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+h3 {
+  margin-right: 10rem;
+  margin-bottom: 1.75rem;
+  margin-left: 10rem;
+
+  letter-spacing: 1px;
+
+  font-family: Raleway;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+}
+
+h4 {
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+
+  letter-spacing: 2.5px;
+
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+}
+
+h5 {
+  margin-top: 1rem;
+  margin-right: 10rem;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+p {
+  margin-top: 2rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+
+  letter-spacing: 1px;
+
+  font-family: Raleway;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+li {
+  margin-right: 10rem;
+  margin-left: 10rem;
+
+  letter-spacing: 1px;
+
+  font-family: Raleway;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+a:hover,
+a:focus {
+  transition: all .1s ease-in-out;
+  text-decoration: none;
+
+  color: #2962FF;
+
+  font-weight: 700;
+}
+
+/* Navbar */
+#navbar {
+  transition: top 0.5s;
+}
+
+ul.navbar-black {
+  position: fixed;
+
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 20px;
+
+  list-style-type: none;
+
+  background-color: transparent;
+}
+
+.navbar-black li,
+.navbar-black p {
+  display: inline;
+  float: right;
+
+  margin: 2px;
+  padding: 0px;
+
+  letter-spacing: 2px;
+
+  color: #000;
+
+  line-height: 0;
+}
+
+.navbar-black a {
+  display: block;
+
+  margin-right: 2rem;
+
+  text-decoration: none;
+}
+
+.portrait {
+  max-width: 300px;
+  height: auto;
+}
+
+.landscape {
+  max-width: 500px;
+  height: auto;
+}
+
+.row-margin {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-object {
+  display: block;
+
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.v-allign {
+  vertical-align: center;
+}
+
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+
+.w-80 {
+  width: 75%;
+  height: auto;
+}
+
+.w-50 {
+  width: 50%;
+  height: auto;
+}
+
+.w-25 {
+  width: 25%;
+  height: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case-block {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.dark {
+  color: #F3F5F6;
+  background-color: #1A1E23;
+}
+
+.mid {
+  background-color: #F7F8FC; /* F4F6F7 */
+}
+
+.accent {
+  background-color: #2962FF;
+}
+
+.accent h3,
+.accent p {
+  color: white;
+}
+
+.pic-margin {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.w3-col p {
+  margin-top: 2.25rem;
+  margin-right: 2rem;
+  margin-bottom: 2.25rem;
+  margin-left: 2rem;
+
+  color: #93a4aa;
+
+  font-family: Raleway;
+  line-height: 1.75rem;
+}
+
+.w3-col h3 {
+  margin-right: 2rem;
+  margin-bottom: 0rem;
+  margin-left: 2rem;
+
+  font-family: Raleway;
+  font-weight: 800;
+  line-height: 2.25rem;
+}
+
+.w3-col h5 {
+  margin-top: 0rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+  margin-left: 2rem;
+
+  letter-spacing: 1px;
+
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.icon-size {
+  width: 35px;
+  height: 35px;
+}
+
+.typed-padding {
+  display: inline;
+
+  padding-left: 1rem;
+}
+
+.back-button {
+  position: fixed;
+  z-index: 10;
+  top: 48px;
+  left: 24px;
+
+  padding: 12px 12px;
+
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary,
+.btn-primary:focus {
+  margin-left: 2rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: #2962FF;
+  border-radius: 2rem;
+  background-color: transparent;
+
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+
+  color: white;
+  border-color: #2962FF;
+  background-color: #2962FF;
+}
+
+.btn-secondary,
+.btn-secondary:focus {
+  margin-left: 1.5rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: #1A1E23;
+  border-radius: 2rem;
+  background-color: transparent;
+
+  font-weight: 700;
+}
+
+.btn-secondary:hover {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+
+  color: #2962FF;
+  border-color: #1A1E23;
+  background-color: #1A1E23;
+}
+
+.btn-margin {
+  margin-top: 3rem;
+}
+
+.social-links {
+  margin-right: 1rem;
+  margin-left: 1rem;
+
+  text-decoration: none;
+}
+
+.animate-fadeIn {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.typed-cursor {
+  animation: blink .75s infinite;
+
+  opacity: 1;
+  color: #2962FF;
+
+  font-size: 4.875rem;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#newtitle h1,
+#newtitle h2,
+#newtitle p {
+  margin-right: 15rem;
+  margin-left: 15rem;
+
+  text-align: left;
+}
+
+#newtitle h1 {
+  letter-spacing: 1px;
+  /* font-family: eskorte-latin, serif; */
+  /* font-weight: 400; */
+
+  font-style: normal;
+}
+
+#newtitle h2 {
+  letter-spacing: 1px;
+
+  color: #000;
+
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+
+#title h1 {
+  margin-right: 0rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+
+  text-align: center;
+}
+
+#intro p {
+  font-size: 1.25rem;
+}
+
+#work p {
+  color: #000;
+
+  font-size: 1rem;
+}
+
+#about {
+  padding-bottom: 4rem;
+}
+
+#about h3 {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  -o-animation-duration: 2s;
+}
+
+#about p {
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -ms-animation-duration: 8s;
+  -o-animation-duration: 8s;
+
+  font-size: 1rem;
+}
+
+video {
+  display: block;
+
+  width: 80% !important;
+  height: auto !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#navbar-secondary ul {
+  overflow: hidden;
+
+  margin-top: 3rem;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+#navbar-secondary p {
+  margin-top: 3rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+
+#navbar-secondary li {
+  float: right;
+
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+
+  font-weight: 700;
+}
+
+#navbar-secondary a {
+  display: block;
+
+  text-align: right;
+  text-decoration: none;
+}
+
+.case-block-small {
+  padding-top: 3rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+  padding-left: 5rem;
+}
+
+#logo-card p {
+  margin: 0px;
+}
+
+#logo-creation h2 {
+  margin-bottom: 3rem;
+}
+
+#personas h2 {
+  margin-bottom: 3rem;
+}
+
+#storyboards h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#interactive-proto h2 {
+  margin-bottom: 3rem;
+}
+
+/* remove button's margin to center */
+#interested a {
+  margin-left: 0px;
+}
+
+#interested p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/* remove button's margin to center */
+#concepts a {
+  margin-left: 0px;
+}
+
+#concepts p {
+  font-size: 1rem;
+}
+
+#links {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about h3 {
+  margin-top: 0rem;
+}
+
+#about p {
+  margin-top: 0rem;
+
+  line-height: 2.00rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  body {
+    border-width: 0.75rem;
+    border-style: solid;
+    border-color: #2962FF;
+
+    font-family: Raleway !important;
+  }
+  h1 {
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    letter-spacing: 1px;
+
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+  }
+  h2 {
+    margin-right: 25px;
+    margin-bottom: 2rem;
+    margin-left: 25px;
+
+    letter-spacing: 1px;
+
+    font-family: Raleway;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2.25rem;
+  }
+  h3 {
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    letter-spacing: 1px;
+
+    font-family: Raleway;
+    font-size: 1.75rem;
+    font-weight: 800;
+    line-height: 2.25rem;
+  }
+  h4 {
+    margin-right: 25px;
+    margin-bottom: 2rem;
+    margin-left: 25px;
+
+    letter-spacing: 2.5px;
+
+    font-family: Raleway;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2.25rem;
+  }
+  h5 {
+    margin-top: 2.25rem;
+    margin-right: 25px;
+    margin-bottom: 0;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+  }
+  p {
+    margin-top: 2.25rem;
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    letter-spacing: 1px;
+
+    font-family: Raleway;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  li {
+    margin-right: 25px;
+    margin-left: 25px;
+
+    letter-spacing: 1px;
+
+    font-family: Raleway;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .row-margin {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .pic-margin {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .btn-primary,
+  .btn-secondary {
+    display: flex;
+    justify-content: center;
+
+    margin-right: 2rem;
+    margin-left: 2rem !important;
+  }
+  .w3-col p {
+    margin-top: 2.25rem;
+    margin-right: 2rem;
+    margin-bottom: 2.25rem;
+    margin-left: 2rem;
+
+    color: #93a4aa;
+
+    font-family: Raleway;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .typed-cursor {
+    animation: blink .75s infinite;
+
+    opacity: 1;
+    color: #2962FF;
+
+    font-size: 2.5rem;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: .5;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #title h1 {
+    margin-right: .25rem;
+    margin-bottom: 1rem;
+    margin-left: .25rem;
+
+    text-align: center;
+  }
+  #interested p,
+  #about p {
+    font-size: 1rem;
+    line-height: 1.50rem;
+  }
+  #about h3 {
+    font-size: 1.75rem;
+  }
+  /* Navbar */
+  #navbar {
+    transition: top 0.5s;
+  }
+
+  ul.navbar-black {
+    position: fixed;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    list-style-type: none;
+
+    background-color: transparent;
+  }
+
+  .navbar-black li,
+  .navbar-black p {
+    display: inline;
+    float: right;
+
+    margin: 1px;
+    padding: 0px;
+
+    letter-spacing: 2px;
+
+    color: #000;
+
+    line-height: 0;
+  }
+
+  .navbar-black a {
+    display: block;
+
+    margin-right: 1.25rem;
+
+    text-decoration: none;
+  }
+  #navbar-secondary ul {
+    overflow: hidden;
+
+    margin: 0;
+    margin-top: 0rem;
+    padding: 0;
+
+    list-style-type: none;
+  }
+  #navbar-secondary p {
+    margin-top: 1.5rem;
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+  }
+  #navbar-secondary li {
+    float: none;
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+    font-weight: 700;
+  }
+  #navbar-secondary a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+  }
+  .case-block-small {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #newtitle h1,
+  #newtitle h2,
+  #newtitle p {
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+    text-align: left;
+  }
+
+  #newtitle h1 {
+    letter-spacing: 1px;
+    /* font-family: eskorte-latin, serif; */
+    /* font-weight: 400; */
+
+    font-style: normal;
+  }
+
+  #newtitle h2 {
+    letter-spacing: 1px;
+
+    color: #000;
+
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+  }
+  #newtitle p {
+    line-height: 1.75rem;
+  }
+}
+
+/* end of media */
