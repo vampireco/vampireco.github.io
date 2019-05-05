@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  border-width: 1rem;
+  border-width: 0rem;
   border-style: solid;
   border-color: #ffffff;
 
@@ -492,6 +492,7 @@ ul.navbar-black {
 #newtitle p {
   margin-right: 15rem;
   margin-left: 15rem;
+  color: white;
 
   text-align: left;
 }
