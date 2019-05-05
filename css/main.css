@@ -42,14 +42,17 @@ html {
 body {
   border-width: 1rem;
   border-style: solid;
-  border-color: #2962FF;
+  border-color: #ffffff;
 
   font-family: Raleway !important;
 }
 
 /*Top Background */
 div.w3-row-padding.case-block {
-  background: #ffcdd2;
+  background: #466368;
+  background: -webkit-linear-gradient(#648880, #293f50);
+  background:    -moz-linear-gradient(#648880, #293f50);
+  background:         linear-gradient(#ffcdd2, #ffffff);
   
 }
 
