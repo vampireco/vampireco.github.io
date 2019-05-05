@@ -47,6 +47,11 @@ body {
   font-family: Raleway !important;
 }
 
+/*Top Background */
+div.w3-row-padding.case-block {
+  background-color: #b2b2b2;
+}
+
 h1 {
   margin-right: 10rem;
   margin-bottom: 5rem;
