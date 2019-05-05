@@ -358,8 +358,8 @@ ul.navbar-black {
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
-  border-color: #2962FF;
-  border-radius: 2rem;
+  border-color: #F761A1;
+  border-radius: 0rem;
   background-color: transparent;
 
   font-weight: 700;
@@ -373,8 +373,8 @@ ul.navbar-black {
   text-decoration: none;
 
   color: white;
-  border-color: #2962FF;
-  background-color: #2962FF;
+  border-color: #F761A1;
+  background-color: #F761A1;
 }
 
 .btn-secondary,
