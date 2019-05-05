@@ -49,7 +49,7 @@ body {
 
 /*Top Background */
 div.w3-row-padding.case-block {
-  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  background-image: linear-gradient( 135deg, #F761A1 10%, #8C1BAB 100%);
   
 }
 
