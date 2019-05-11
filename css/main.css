@@ -934,7 +934,7 @@ video {
 }
 
 /* Extra Stuff */
-header {
+/*header {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -982,7 +982,7 @@ header .overlay {
     display: none;
   }
 }
-
+*/
 /* Bootstrap CSS for video header */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
