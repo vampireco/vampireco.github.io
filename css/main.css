@@ -975,9 +975,6 @@ header .overlay {
   z-index: 1;
 }
 
-#flex { display: flex; flex-direction: column;}
-#a { order:2;}
-#b { order: 1;}
 
 
 @media (pointer: coarse) and (hover: none) {
