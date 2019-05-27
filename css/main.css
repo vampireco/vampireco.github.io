@@ -956,26 +956,7 @@ video {
  * {
 	 box-sizing: border-box;
 }
- body:after {
-	 background: rgba(255, 255, 255, 1);
-	 content: '';
-	 height: 100%;
-	 left: 0;
-	 opacity: 0;
-	 overflow: auto;
-	 padding: 0;
-	 position: absolute;
-	 top: 0;
-	 transition: all 0.4s ease;
-	 width: 100%;
-}
- body.open {
-	 overflow: hidden;
-}
- body.open:after {
-	 opacity: 1;
-	 visibility: visible;
-}
+
  .b-nav {
 	 position: absolute;
 	 z-index: 11;
