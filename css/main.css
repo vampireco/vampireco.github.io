@@ -941,9 +941,32 @@ video {
   box-sizing: border-box;
 }
 
+body {
+  color: #8f8f8f;
+  background: white;
+  font-family: "Oswald", serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
 
+a {
+  text-decoration: none;
+}
 
+h1 {
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
 
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+}
 .row {
   width: 100%;  
   margin: 0 auto;
