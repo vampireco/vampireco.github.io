@@ -15,21 +15,7 @@
 //# sourceMappingURL=bootstrap.bundle.min.js.map
     
 /* test stuff - to script */
-'use strict';
 
-(function() {
-  var body = document.body;
-  var burgerMenu = document.getElementsByClassName('b-menu')[0];
-  var burgerContain = document.getElementsByClassName('b-container')[0];
-  var burgerNav = document.getElementsByClassName('b-nav')[0];
-
-  burgerMenu.addEventListener('click', function toggleClasses() {
-    [body, burgerContain, burgerNav].forEach(function (el) {
-      el.classList.toggle('open');
-    });
-  }, false);
-})();
-    
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -106,29 +92,19 @@
   -->
   
     <!-- Begin Auto Hide Navigation -->
- <!-- Navigation -->
-<div class="b-nav">
-  <li><a class="b-link" href="https://github.com/mblode/burger" target="_blank">GitHub - burger</a></li>
-  <li><a class="b-link" href="https://github.com/mblode" target="_blank">Github - mblode</a></li>
-  <li><a class="b-link" href="https://codepen.io/mblode/" target="_blank">CodePen</a></li>
-  <li><a class="b-link" href="https://dribbble.com/mblode" target="_blank">Dribbble</a></li>
-</div>
-
-<!-- Burger-Icon -->
-<div class="b-container">
-  <div class="b-menu">
-    <div class="b-bun b-bun--top"></div>
-    <div class="b-bun b-bun--mid"></div>
-    <div class="b-bun b-bun--bottom"></div>
-  </div>
-
-  <!-- Burger-Brand -->
-  <a href="#" class="b-brand">Burger</a>
-</div>
-  
-  
-
-    <script  src="js/index.js"></script>
+<input type="checkbox" id="m1" class="hidden-menu-ticker">
+<label class="btn-menu" for="m1">
+  <span class="first"></span>
+  <span class="second"></span>
+  <span class="third"></span>
+</label>
+<ul class="hidden-menu">
+  <li><a href="">Home</a></li>  
+  <li><a href="">About us</a></li>
+  <li><a href="">Portfolio</a></li>
+  <li><a href="">Catalogue</a></li>
+  <li><a href="">Contacts</a></li>  
+</ul>
 
     <!-- End Auto Hide Navigation -->
   
